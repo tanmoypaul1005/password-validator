@@ -1,0 +1,29 @@
+{
+  "name": "genie-password-validator",
+  "version": "1.0.0",
+  "description": "Customizable strong password validator for Node.js and web applications.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist --presets @babel/preset-env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanmoypaul1005/password-validator.git"
+  },
+  "author": "Tanmoy paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanmoypaul1005/password-validator/issues"
+  },
+  "homepage": "https://github.com/tanmoypaul1005/password-validator#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.2",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
