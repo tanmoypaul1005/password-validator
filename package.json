@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/tanmoypaul1005/password-validator.git"
   },
+  "keywords": [
+    "React js",
+    "Next js"
+  ],
   "author": "Tanmoy paul",
   "license": "ISC",
   "bugs": {
