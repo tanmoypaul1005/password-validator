@@ -3,49 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-
-        header {
-            background-color: #007acc;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        header h1 {
-            font-size: 36px;
-        }
-
-        header p {
-            font-size: 18px;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        h2 {
-            font-size: 24px;
-        }
-
-        pre code {
-            background-color: #f5f5f5;
-            padding: 5px;
-            display: block;
-            overflow-x: auto;
-            white-space: pre-wrap;
-        }
-    </style>
-    <title>genie-password-validator Documentation</title>
 </head>
 <body>
     <header>
