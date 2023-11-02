@@ -1,6 +1,6 @@
 {
   "name": "genie-password-validator",
-  "version": "3.0.1",
+  "version": "2.0.1",
   "description": "Customizable strong password validator for Node.js and web applications.",
   "main": "dist/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "React js",
     "Next js"
   ],
-  "author": "Tanmoy paul",
+  "author": "Tanmoy Paul",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tanmoypaul1005/password-validator/issues"
