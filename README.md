@@ -38,18 +38,25 @@ const options = {
     console.log("Password is strong and meets all criteria.");
 } else {
     console.log("Password validation failed. Reasons:");
-    result.messages.forEach(message => {
+    result.messages.forEach message => {
         console.log(message);
     });
 }</code></pre>
             </li>
         </ol>
     </section>
-    <section id="example">
-        <h2>Example</h2>
-        <p>Here's an example of using the `genie-password-validator` package to validate a password:</p>
-        <pre><code>const { isStrongPassword } = require("genie-password-validator");
-
+    <section id="reactjs-usage">
+        <h2>Using genie-password-validator in a React.js Project</h2>
+        <p>If you're working on a React.js project and need to implement password validation, you can use the `genie-password-validator` package as follows:</p>
+        <ol>
+            <li>Install the package in your React project using npm:</li>
+            <pre><code>npm install genie-password-validator</code></pre>
+            <li>Import the `isStrongPassword` function in your React component where you need password validation.</li>
+            <pre><code>
+import { isStrongPassword } from 'genie-password-validator';
+            </code></pre>
+            <li>Use the function to validate passwords in your React component, such as during user registration or password change processes. Here's a simple example:</li>
+            <pre><code>
 const password = "YourPassword123!";
 const options = {
     minUppercase: 1,
@@ -68,7 +75,9 @@ if (result.isValid) {
     result.messages.forEach(message => {
         console.log(message);
     });
-}</code></pre>
+}
+            </code></pre>
+        </ol>
     </section>
     <section id="config">
         <h2>Configuration Options</h2>
