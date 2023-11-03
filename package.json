@@ -1,6 +1,6 @@
 {
   "name": "genie-password-validator",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Customizable strong password validator for Node.js and web applications.",
   "main": "dist/index.js",
   "scripts": {
