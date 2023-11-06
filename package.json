@@ -1,5 +1,5 @@
 {
-  "name": "genie-password-validator",
+  "name": "password-validator-react",
   "version": "4.0.2",
   "description": "Customizable strong password validator for Node.js and web applications.",
   "main": "dist/index.js",
